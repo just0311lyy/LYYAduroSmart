@@ -1,0 +1,343 @@
+/* 
+  Localizable.strings
+  AduroSmart
+
+  Created by MacBook on 16/7/7.
+  Copyright © 2016年 MacBook. All rights reserved.
+*/
+//网关国际化开始
+"设备"="Devices";
+"房间"="Rooms";
+"场景"="Scenes";
+"任务"="Schedule";
+"设置"="Settings";
+
+"配置网关步骤:\n请先确保网关已经接通电源"="How to set the gateway ？\nPlease make sure that the gateway is connected to the power supply";
+"配置网关步骤:\n然后将网关接入路由器"="How to set the gateway ？\nThen let the gateway connect to the router";
+"配置网关步骤:\n点击下面的搜索按钮,开始搜索网关"="How to set the gateway ？\nClick on the below button to search for gateways.";
+
+"网关数据获取中..."="Getting data from ZigBee Bridge";
+"网关"="ZigBee Bridge";
+"编号:"="Number:";
+"返回"="Back";
+"保存"="Save";
+"请输入自定义设备名"="Please enter a name";
+"搜索"="Search";
+"搜索新的灯前,请先确保灯的开关已经打开,然后点击搜索按钮."="Looking for some new lights. Please turn on the lights. Before the device going to scan mode, please press ‘Search’ button firstly.";
+"搜索新的传感器前,请先确保传感器的开关已经打开,然后点击搜索按钮."="Looking for some new sensors. Please turn on the sensors. Before the device going to Paring mode,please press ‘Search’ button firstly.";
+
+"数据获取中..."="Getting data...";
+//设备
+"分类"="Class";
+"灯"="Light";
+"传感器"="Sensor";
+"编辑"="Edit";
+"色彩"="Color";
+"色温"="Temperature";
+"默认"="Default";
+"彩灯"="Color lamp";
+"色温灯"="Color temperature lamp";
+"调光灯"="Dim lamp";
+"离线"="Offline";
+"在线"="Online";
+"人体传感器"="Motion Sensor";
+"门磁传感器"="Door Contact Sensor";
+"USB插座"="USB socket";
+"电源插座"="Socket";
+"开门"="Open";
+"关门"="Close";
+"有人经过"="Someone passing by";
+
+//房间
+"新建"="New";
+"新的"="New";
+"房间类型"="Room type";
+"客厅"="Living room";
+"厨房"="Kitchen";
+"卧室"="Bedroom";
+"浴室"="Bathroom";
+"餐厅"="Restaurant";
+"厕所"="Toilet";
+"办公室"="Office";
+"走廊"="Hallway";
+"名称"="Name";
+"该功能还未开启,敬请期待"="The function is not available yet, coming soon";
+"刷新设备列表"="Refresh device list";
+"删除成功"="Delete successfully";
+"删除失败"="Delete failed";
+
+"灯类"="Lamp";
+"传感器类"="Sensor";
+"历史记录"="History record";
+//设置
+"任务"="Schedules";
+"登录"="Login";
+"删除"="Delete";
+"你确定要删除该设备吗"="Are you sure to remove the device";
+"修改设备名称"="Change a name of the device";
+"请输入名称"="Please enter a name";
+"名称已存在"="The name already exists.";
+"名称长度应在1到30之间"="The name must be between 1-30 characters long";
+"保存成功"="Save successfully ";
+"修改房间名称"="Change a name of the home";
+"你确定要删除该房间吗"="Are you sure to remove the room";
+"修改场景名称"="Change a name of the scene";
+"你确定要删除该场景吗"="Are you sure to remove the scene";
+
+
+"下一步"="Next";
+"扫描网关背面二维码:\n将二维码置于框内, 即可自动扫描"="Please scan QR code on the back of the ZigBee Bridge:\nPlease move the QR code into the box. It may automatically scan QR code";
+//登录
+"邮箱登录"="Email login";
+"邮箱账号"="Email account please";
+"密码"="Password please";
+"手机登录"="Phone login";
+"手机账号"="Phone account";
+"忘记密码"="Forgot Password?";
+"创建进入"="New here? Sign up";
+"注册"="Register";
+"国家和地区"="Country Area";
+"请输入手机号码"="Phone number please";
+"验证码:"="Verification:";
+"验证码"="Get code";
+"获取"="Get";
+"密码:"="Password:";
+"请输入密码"="Password please";
+"请输入验证码"="Verification code please";
+"创建账号"="Create Account";
+"进入"="Sign up";
+"邮箱:"="Mail:";
+"请输入邮箱地址"="E-mail address please";
+"模型:"="Model:";
+"请输入房间名"="Room name please";
+"取消"="Cancel";
+//"打开所有的灯"="Turn on all";
+//"关闭所有的灯"="Turn off all";
+"激活"="Activation";
+"添加"="Add";
+"请输入场景名"="Scene name please";
+"是否激活该场景"="Are you sure to activate the scene";
+"确定"="Sure";
+"完成"="Done";
+"成功开启场景"="Scene is successfully turned on";
+"场景名称长度必须由1到20位字符或数字组成"="The Scene name should be between 1-20 characters long";
+//"浴灯"="Bath lamp";
+//"厨灯"="Kitchen lamp";
+
+"定时任务"="Time task";
+"触发任务"="Linkage task";
+"新建定时任务"="New timing take";
+"新建触发任务"="New linkage task";
+"添加一个新的任务"="Add a new task";
+
+//登录
+"提示"="Prompt";
+"提醒"="Prompt";
+"密码必须由8到18位字符或数字组成"="The password should be between 8-18 characters long";
+"两次输入的密码不一致,请重新输入"="Passwords do not match, please re-enter it";
+"账号必须由1到30位字符或数字组成"="The length of the username should be between 1-30";
+"您输入的邮箱有误"="Wrong email account";
+"验证码错误!"="Error verification code!";
+"网络出错了,请检查网络后重试!"="Network error! Please Check the network and try again!";
+"关闭"="Close";
+
+"账号错误"="Account error";
+"密码错误"="Password error";
+"未定义"="Not defined";
+"登录失败"="Login failed";
+"登录成功"="Login successfully";
+"开启远程控制"="You have turned on the remote control";
+
+//邮箱注册
+"邮箱已被注册"="The email has been registered";
+"邮箱格式错误"="The email format error";
+"手机格式错误"="Cell phone format error";
+"用户名格式错误"="User name format error";
+"邮箱被禁用"="The email disabled";
+"验证码发送成功"="Verification code sent successfully";
+"注册失败"="Register failed";
+"注册成功,请登录"="Registered success, please login";
+"注销"="Log off";
+"注销失败"="Log off failure";
+"退出成功"="Exit successfully";
+"退出"="Sign out";
+
+//忘记密码
+"重置密码"="Reset password";
+"用户不存在"="User does not exist";
+"验证码发送失败"="Verification code sent failed";
+"修改密码失败"="Modify password failed";
+"修改密码成功"="Modify password successfully";
+"验证码超时"="The verification code is out of time";
+"验证码错误"="Error verification code";
+
+//任务
+"触发时间?"="Trigger Time";
+"任务名"="Task name";
+"选择触发设备"="Selected trigger device";
+"开启任务:"="Task start:";
+"触发动作:"="Trigger action:";
+"周一"="Mo";
+"周二"="Tu";
+"周三"="We";
+"周四"="Th";
+"周五"="Fr";
+"周六"="Sa";
+"周日"="Su";
+"任务名不能为空"="The task name cannot be empty";
+
+
+
+//新增
+"返回"="Return";
+"你确定要删除该网关吗"="Are you sure to delete the ZigBee Birdge";
+"删除中..."="Being deleted...";
+"刷新列表"="Refresh List";
+"保存场景成功"="Save the scene successfully";
+"数据加载中..."="Data loading...";
+"添加设备成功"="Add the device successfully";
+"成功"="Success";
+"获取网关数据中……"="Getting ZigBee data…";
+"震动传感器"="Vibration sensor";
+"账号不能为空"="Account cannot be empty";
+"二维码扫描"="Scanning";
+"请在隐私设置中打开摄像头"="Please open the camera in the privacy settings";
+"去设置"="GO to set";
+"网关列表"="ZigBee Bridge list";
+"您可以在这里管理您所添加的设备.\n点击屏幕右上角的 + 按钮进行设备的添加"="Here you can manage and view your ZigBee devices.\nPress + button at the top of the screen to add the device to your account";
+"关于"="About";
+"远程在线"="Remote online";
+"网关连接成功"="The ZigBee Bridge connect successfully";
+"网关连接失败"="The ZigBee Bridge connect failed";
+"请确保10米范围内有已经建立连接的网关,然后重试"="Please make sure that there is a connection ZigBee Bridge in 10 meters .Then try again";
+"场景名称长度应在1到20之间"="The length of the scene name should be between 1-20";
+"搜索中..."="Searching...";
+" - 什么是配对模式？\n - 如何使Trust ZigBee智能设备进入配对模式？\n - 如何添加其他品牌的ZigBee设备？"=" - What is Paring mode？\n - How to make Trust ZigBee Smart sensors going to Paring mode？\n - How to add other brand ZigBee sensor to my list？";
+"帮助"="Help";
+"未查找到新设备"="No new devices found";
+"创建定时任务成功"="Create timed tasks successfully";
+"设备列表"="Devices list";
+"房间列表"="Room list";
+"传感器类型选择"="Sensor type selection";
+"传感器名"="Sensor name";
+"触发动作:"="Trigger action:";
+"是否开启"="Enable";
+"选择被触发的场景"="Select the scene to be triggered";
+"场景名称"="Scene name";
+"请点击'设备选择'或者'场景选择'按钮"="Please click below  button to select the scene or device";
+"任务详情"="Task details";
+"选择设备"="Device selection";
+"选择场景"="Scene selection";
+"您确定要删除该任务吗"="Are you sure to delete the task";
+"编号小于1无法删除"="The number less than 1 can not be deleted";
+"删除任务中..."="Be deleting task...";
+"创建触发任务成功"="Create trigger tasks successfully";
+"有人"="Cross";
+"请选择一个设备"="Please select a device";
+"定时设备"="Timed equipment";
+"定时场景"="Timed scene";
+"触发设备"="Trigger devices";
+"编辑任务"="Task edit";
+"编辑定时任务成功"="Edit Time tasks successfully";
+"设备定时"="Equipment timing";
+"场景定时"="Scene timing";
+"设备触发"="Device trigger";
+"场景触发"="Scene trigger";
+"创建房间成功"="Create room successfully";
+"编辑房间成功"="Edit room successfully";
+"编辑触发任务成功"="Edit Trigger tasks successfully";
+"新建场景"="New scene";
+"当前房间没有已经添加并且连接到网关的在线设备"="There aren’t any online devices that have been added and connected to the ZigBee Bridge.";
+"任务场景选择"="Task scene selection";
+"摄像头"="IPCam";
+"账号"="Account";
+"登录状态下获取网关数据失败:网络出错了,请检查网络后重试!"="Error! Please check the network and try again!";
+"登录状态下,网关连接数据上传失败,请登录后重新连接网关."="Error! Please login, and reconnect the ZigBee bridge!";
+"错误"="Error";
+"登录中..."="Being logged in...";
+"所有设备"="All Devices";
+"账号信息"="Account message";
+"注销登录"="Log off";
+"网关"="ZigBee Bridge";
+"已连接"="Connected";
+"未连接"="Unconnected";
+"修改任务名称"="Modify task name";
+"跳过"="Skip";
+"当前局域网未查找到可连接的网关,请重试。"="Can not find the ZigBee Birdges, please try again";
+
+
+//10.24
+"delete"="delete";
+"sure to remove the ZigBee Birdge? After that, you will not be able to control it"="sure to remove the ZigBee Birdge? After that, you will not be able to control it";
+"cancel"="cancel";
+"sure"="sure";
+//11.03
+"Please select a device or a scene to set"="Please select a device or a scene to set";
+"uncontrollable"="uncontrollable";
+"offline"="offline";
+//11.04
+"Delete the room will empty the scenes inside. Continue?"="Delete the room will empty the scenes inside. Continue?";
+//11.08
+"Deleting..."="Deleting...";
+//11.21
+"Save failed"="Save failed";
+"Error"="Error";
+//11.28
+"Being logged off..."="Being logged off...";
+//11.30
+"Scene names"="Scene names";
+"Leaving home"="Leaving home";
+"Coming home"="Coming home";
+"Wake up"="Wake up";
+"Go to sleep"="Go to sleep";
+"Scenes"="Scenes";
+"Type"="Type";
+"OK"="OK";
+//12.02
+"have dinner"="have dinner";
+"reading"="reading";
+"watching_TV"="watching_TV";
+"custom"="custom";
+//12.07
+"Timing"="Timing";
+"Trigger"="Trigger";
+"Message"="Message";
+"Check"="Check";
+"Sure"="Sure";
+"A device should be selected at least"="A device should be selected at least";
+"Network anomaly"="Network anomaly";
+//12.23
+"Domain"="Domain";
+"Login success.But failed to get cloud data"="Login success.But failed to get cloud data";
+"Login success.And you can use remote control"="Login success.And you can use remote control";
+//12.26
+"update"="update";
+"Gateway firmware upgrade success"="Gateway firmware upgrade success";
+//12.27
+"Remote control"="Remote control";
+//1.13
+"1、Long press the button 10s to reset the remote control."="1、Long press the button 10s to reset the remote control.";
+"2、Long press the button near the gateway.Then click the search button.";
+//1.19
+"The ZigBee Birdge has been deleted"="The ZigBee Birdge has been deleted";
+"Repeatedly turn on the switch 5 times in a short time."="Repeatedly turn on the switch 5 times in a short time.";
+"Long tie the hole 10s to reset the sensor,and then short tie to connect."="Long tie the hole 10s to reset the sensor,and then short tie to connect.";
+
+
+
+//假数据
+//"开灯"="turn on the light";
+//"关灯"="turn off the light";
+//"开启门禁"="Open access";
+//"关闭门禁"="Close access";
+
+
+//网关国际化结束
+
+
+
+
+
+
+
+

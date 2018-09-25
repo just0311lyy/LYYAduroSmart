@@ -1,0 +1,115 @@
+//
+//  PrefixHeader.pch
+//  AduroSmart
+//
+//  Created by MacBook on 16/7/7.
+//  Copyright © 2016年 MacBook. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import "DDLog.h"
+static const int ddLogLevel = DDLogLevelVerbose;
+
+
+#import "ASLocalizeConfig.h"
+#import <Masonry.h>
+#import <AduroSmartLib/AduroSmartSDKManager.h>
+
+//标示色
+#define UIColorFromRGB(rgbValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0x0000FF))/255.0 \
+alpha:1.0]
+//导航标示色
+#define LOGO_COLOR UIColorFromRGB(0Xffad2c)
+//#define LOGO_COLOR ([UIColor colorWithRed:0.8784 green:0.0 blue:0.1451 alpha:1.0])
+#define ASSIST_COLOR UIColorFromRGB(0Xffba02)
+//button边框颜色
+#define BUTTON_COLOR UIColorFromRGB(0Xe49d27)
+//cell分割线
+#define CELL_LIEN_COLOR UIColorFromRGB(0Xe6e6e6)
+//tableView背景色
+#define VIEW_BACKGROUND_COLOR UIColorFromRGB(0Xf7f7f7)
+//tableView头视图描述文字
+#define HEARD_TABLEVIEW_DESCRIPTION 70
+//屏幕宽和高
+#define SCREEN_ADURO_WIDTH  ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_ADURO_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+//刷新分组列表
+#define NOTI_REFRESH_GROUP_TABLE @"NOTI_REFRESH_GROUP_TABLE"
+//刷新场景列表
+#define NOTI_REFRESH_SENCES_TABLE @"NOTI_REFRESH_SENCES_TABLE"
+//刷新设备列表
+#define NOTI_REFRESH_DEVICE_TABLE @"NOTI_REFRESH_DEVICE_TABLE"
+//刷新任务列表
+#define NOTI_REFRESH_SCHEDULES_TABLE @"NOTI_REFRESH_SCHEDULES_TABLE"
+
+//十六进制数据偏移量
+#define HEXADECIMAL_DATA_OFFSET 0x11
+//搜索新设备最长时间为  45  秒
+#define SEARCH_NEW_DEVICE_TIME 45
+//批量删除底部视图的高度
+#define SELECT_DELETE_VIEW_HEIGHT 49
+//条状加载视图使tableview下移的距离
+#define WJ_HUD_VIEW_HEIGHT 6
+
+//登录请求url--手机验证
+#define URL_VERIFICATION_PHONE_URL @"https://data.adurosmart.com/adurosmart/index.php/User/register/checkTel"
+//登录请求url--手机注册
+#define URL_REGISTER_PHONE_URL @"https://data.adurosmart.com/adurosmart/index.php/User/register/telReg"
+//登录请求url--手机登录
+#define URL_LOGIN_PHONE_URL @"https://data.adurosmart.com/adurosmart/index.php/User/login/loginTel"
+
+//登录请求url--邮箱验证
+#define URL_VERIFICATION_EMAIL_URL @"https://data.adurosmart.com/adurosmart/index.php/User/register/checkMail"
+//登录请求url--邮箱注册
+#define URL_REGISTER_EMAIL_URL @"https://data.adurosmart.com/adurosmart/index.php/User/register/mailReg"
+//登录请求url--邮箱登录
+#define URL_LOGIN_EMAIL_URL @"https://data.adurosmart.com/adurosmart/index.php/User/login/loginMail"
+//注销请求url--注销登录
+#define URL_LOGIN_CANCEL_URL @"https://data.adurosmart.com/adurosmart/index.php/User/change/logout"
+//忘记密码url--邮箱账号验证
+#define URL_FORGET_VERIFICATION_EMAIL_URL @"https://data.adurosmart.com/adurosmart/index.php/User/forget/sendCheckcodeByMail"
+//忘记密码url--邮箱密码重置
+#define URL_FORGET_EMAIL_URL @"https://data.adurosmart.com/adurosmart/index.php/User/forget/passwordModByMail"
+
+//上传网关数据url--网关编号，key，用户名
+#define UPDATE_GATEWAY_MESSAGE_URL @"https://data.adurosmart.com/adurosmart/index.php/User/gateway/upload"
+//从服务端获取网关数据url--网关编号，key，用户名
+#define GET_GATEWAY_MESSAGE_URL @"https://data.adurosmart.com/adurosmart/index.php/User/gateway/read"
+//从服务端删除网关数据url--网关编号，key，用户名
+#define DELETE_GATEWAY_MESSAGE_URL @"https://data.adurosmart.com/adurosmart/index.php/User/gateway/delete"
+//国内服务器域名地址
+#define CHINA_DOMAIN_SERVER_ADDRESS @"120.24.242.83"
+#define EUROPE_DOMAIN_SERVER_ADDRESS @"data.adurosmart.com"
+//总设备的房间ID
+#define MAX_GROUP_ID 70000
+
+//房间在线
+#define GROUP_NET_STATE_ONLINE 0x01
+//场景在线
+#define SCENE_NET_STATE_ONLINE @"scene_net_state_online"
+//任务在线
+#define SCHEDULES_NET_STATE_ONLINE 0X01
+
+#ifdef DEBUG
+#define DLog(fmt,...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define DLog(...)
+#endif
+
+//新的推送信息
+#define NOTI_NEW_NOTI_ACTION @"NOTI_NEW_NOTI_ACTION"
+
+#endif
+#endif /* PrefixHeader_pch */
